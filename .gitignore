@@ -1,0 +1,21 @@
+# Ignore model files
+*.pkl
+
+# Ignore dataset files
+*.csv
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# MacOS/Windows hidden files
+.DS_Store
+Thumbs.db
+
+# Any pycache files
+__pycache__/
+*.pyc
