@@ -142,7 +142,7 @@ with col2:
     selected_movie_name = st.selectbox(
         '',
         movies['title'].values,
-        index=movies[movies['title'] == 'Avatar'].index[0] if 'Avatar' in movies['title'].values else 0,
+        index=int(movies[movies['title'] == 'Avatar'].index[0]) if 'Avatar' in movies['title'].values else 0,
         placeholder="Type or select a movie..."
     )
     
